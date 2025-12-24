@@ -1,4 +1,4 @@
-## European-Casino-Roulette
+# European-Casino-Roulette
 
 This is a complete, single-file Python script that implements a faithful European Roulette game with:
 1. Tkinter Canvas for accurate table layout.
@@ -9,15 +9,15 @@ This is a complete, single-file Python script that implements a faithful Europea
 6. RTP = 97.3% enforced by correct payouts.
 
 # Key Design Choices:
-a) Table Layout: Grid-based inside bets + labeled outside zones;
-b) Wheel Animation: Uses after() for smooth rotation + ball bounce;
-c) Bet Placement: Click on canvas regions - mapped to bet types;
-d) Call Bets: Predefined chip distributions.
+- table Layout: Grid-based inside bets + labeled outside zones;
+- wheel Animation: Uses after() for smooth rotation + ball bounce;
+- bet Placement: Click on canvas regions - mapped to bet types;
+- call Bets: Predefined chip distributions.
 
 # Features:
- - chip stacking;
- -smooth wheel animation with easing;
- - bet history panel;
+- chip stacking;
+-smooth wheel animation with easing;
+- bet history panel;
 - win animations (flashing segment + sparkles);
 - real-time statistics tracking (spins, wins, profit, favorite number);
 - casino-style graphics;
