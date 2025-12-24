@@ -9,14 +9,14 @@ This is a complete, single-file Python script that implements a faithful Europea
 6. RTP = 97.3% enforced by correct payouts.
 
 # Key Design Choices:
-- table Layout: Grid-based inside bets + labeled outside zones;
-- wheel Animation: Uses after() for smooth rotation + ball bounce;
-- bet Placement: Click on canvas regions - mapped to bet types;
-- call Bets: Predefined chip distributions.
+- table layout: grid-based inside bets + labeled outside zones;
+- wheel animation: uses after() for smooth rotation + ball bounce;
+- bet placement: click on canvas regions - mapped to bet types;
+- call bets: predefined chip distributions.
 
 # Features:
 - chip stacking;
--smooth wheel animation with easing;
+- smooth wheel animation with easing;
 - bet history panel;
 - win animations (flashing segment + sparkles);
 - real-time statistics tracking (spins, wins, profit, favorite number);
