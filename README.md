@@ -30,4 +30,11 @@ This is a complete, single-file Python script that implements a faithful Europea
 - press SPIN and watch the wheel animate;
 - results auto-resolve with correct payouts.
 
-I suppose it’s quite possible to exploit this program as methodical guide for studying of some disciplines «Probability Theory», «Game Theory», «Analytic Combinatorics», «Analysis Algorithms» and «Risk Management». May be this script will help to master the game from scratch in a week and make the learning process fun and exciting. Though we shouldn’t forget the game of real Roulette is associated with financial risks, as the result depends on a random event - the number on which the player has bet.
+Additionally, I decided to add a mobile version of this game (European_Casino_Roulette_KivyApp). This is the complete, integrated script for Kivy-based App, which:
+- uses our preserved roulette_engine.py logic;
+- integrates BettingTable and RouletteWheel widgets;
+- implements chip selection, bet placement, call bets, and neighbor betting;
+- includes layout with side panel, history, stats, and logging;
+- supports touch input, win flash, spin animation, and chip stacking.
+
+I suppose it’s quite possible to exploit these programs as methodical guide for studying of some disciplines «Probability Theory», «Game Theory», «Analytic Combinatorics», «Analysis Algorithms» and «Risk Management». May be this script will help to master the game from scratch in a week and make the learning process fun and exciting. Though we shouldn’t forget the game of real Roulette is associated with financial risks, as the result depends on a random event - the number on which the player has bet.
