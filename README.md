@@ -8,13 +8,13 @@ This is a complete, single-file Python script that implements a faithful Europea
 5. Chip-based betting, balance, total bet, Rebet/New Bets/Clear Bet.
 6. RTP = 97.3% enforced by correct payouts.
 
-# Key Design Choices:
+## Key Design Choices
 - table layout: grid-based inside bets + labeled outside zones;
 - wheel animation: uses after() for smooth rotation + ball bounce;
 - bet placement: click on canvas regions - mapped to bet types;
 - call bets: predefined chip distributions.
 
-# Features:
+## Features
 - chip stacking;
 - smooth wheel animation with easing;
 - bet history panel;
@@ -23,7 +23,7 @@ This is a complete, single-file Python script that implements a faithful Europea
 - casino-style graphics;
 - no bugs or crashes - thoroughly tested.
 
-# How to Run: 
+## How to Run 
 - python3 European_Casino_Roulette.py
 - click numbers or outside zones to place bets;
 - use racetrack for Call Bets;
