@@ -30,7 +30,7 @@ This is a complete, single-file Python script that implements a faithful Europea
 - press SPIN and watch the wheel animate;
 - results auto-resolve with correct payouts.
 
-Additionally, I decided to add a mobile version of this game (European_Casino_Roulette_KivyApp). This is the complete, integrated script for Kivy-based App, which:
+Additionally, I decided to add a mobile version of this game (European_Casino_Roulette_KivyApp.py). This is the complete, integrated Kivy App script, which:
 - uses our preserved roulette_engine.py logic;
 - integrates BettingTable and RouletteWheel widgets;
 - implements chip selection, bet placement, call bets, and neighbor betting;
