@@ -24,7 +24,9 @@ This is a complete, single-file Python script that implements a faithful Europea
 - no bugs or crashes - thoroughly tested.
 
 ## How to Run 
-- python3 European_Casino_Roulette.py
+```
+python3 European_Casino_Roulette.py
+```
 - click numbers or outside zones to place bets;
 - use racetrack for Call Bets;
 - press SPIN and watch the wheel animate;
